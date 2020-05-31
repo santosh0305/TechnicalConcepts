@@ -133,17 +133,31 @@ https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/
 
  
 Web-Api
-1.	Authentication
-2.	Complex and Simple Types
-3.	Attribute Routing
-4.	Web-api Filters
-5.	Content Negotiation
-6.	Complex & Simple Binding
-7.	Put Vs Post and Patch
-8.	Converting web-api to REST complaint
-9.	Media type formatters
-10.	Validate model / request sent by UI
-11.	IHttpActionResult
+1.	Controller, actions, Filters, Model binders & Dependency Injection
+2.	Routing
+a.	Primitive types (read from url)
+b.	Complex Types (read from request body) 
+3.	Global.asax
+4.	WebApiConfig
+a.	Config.MapHttpAttributes();
+b.	Config.EnableCors()
+c.	Config.Filters.Add(NotImplExceptionFilter)
+d.	Config.Formatters.JsonFormaters
+e.	Config.Formatters.XmlFormaters
+f.	Config.Filters.Add(new AutherizeAttribute()) to enable Authorization
+g.	Config.Filters,Add(new IdentityBasicAuthenticationAttribute();)
+5.	Attributes
+6.	Attribute Routing
+7.	Authentication
+8.	Complex and Simple Types
+9.	Web-api Filters
+10.	Content Negotiation
+11.	Complex & Simple Binding
+12.	Put Vs Post and Patch
+13.	Converting web-api to REST complaint
+14.	Media type formatters
+15.	Validate model / request sent by UI
+16.	IHttpActionResult
  
 MVC
 1.	Architecture
@@ -271,6 +285,3 @@ Treat the words as case-sensitive, so, for example, 'had' and 'Had' are differen
 2.	Implement generic queue based on array
 3.	Implement generic List based on array.
 Implementation of algorithm for searching the number of possible palindromes by given input string
- 
- 
-
