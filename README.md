@@ -293,21 +293,37 @@ https://media.whizlabs.com/website/AZ-900-WhizCard.pdf
 https://www.pluralsight.com/
 
 https://www.udemy.com/
+
 https://lms.simplilearn.com/dashboard
+
 https://www.linkedin.com/learning/me/saved
+
 https://www.csharpstar.com/
+
 https://www.tutorialsteacher.com/csharp/csharp-func-delegate
+
 https://dotnettutorials.net/lesson/liskov-substitution-principle/
+
 https://www.dotnetperls.com/
+
 https://medium.com/@2mymail.santosh/list/reading-list
+
 https://docs.microsoft.com/en-us/aspnet/tutorials
+
 https://www.techonthenet.com/index.php
+
 https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wyqh
+
 https://santoshnanduri.blogspot.com/p/angular.html
+
 https://github.com/santosh0305/TechnicalConcepts/blob/master/README.md
+
 https://docs.microsoft.com/en-us/users/snanduri/
+
 https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history
+
 https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/bb397897(v=vs.100)
+
 https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iequalitycomparer-1?view=net-5.0
 
 Design Patterns:
