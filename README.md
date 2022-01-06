@@ -287,8 +287,11 @@ Implementation of algorithm for searching the number of possible palindromes by 
 
 Links:
 https://www.whizlabs.com/learn/my-courses
+
 https://media.whizlabs.com/website/AZ-900-WhizCard.pdf
+
 https://www.pluralsight.com/
+
 https://www.udemy.com/
 https://lms.simplilearn.com/dashboard
 https://www.linkedin.com/learning/me/saved
