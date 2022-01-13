@@ -1,6 +1,8 @@
+Microservices
+
+
 .Net Core:
 1.	Middleware & Pipeline flow
-2.	Microservices
 3.	Services configuration in start-up.
 4.	Middleware registrations.
 5.	 Adding services:
@@ -20,11 +22,11 @@ Authentication:
 7.	Cookie based
 8.	OData
  
-Design:
+Design & Patterns:
 1.	Dependency Injections
-○	Method
-○	Constructor
-○	Property 
+   ○	Method
+   ○	Constructor
+   ○	Property 
 2.	Inversion of Control
 3.	Interface - Implementation approach (Services as layers)
 4.	SOLID Principles
@@ -32,7 +34,7 @@ Design:
 6.	Autofac (Dependency Injection)
 7.	Automapper
 8.	Singleton
-○	With lock 
+   ○	With lock 
 9.	Abstract Factory
 10.	Factory Method
 11.	Repository Pattern
@@ -40,7 +42,7 @@ Design:
  
 Entity F/W:
 1.	DB Migrations
-a.	Commands
+   a.	Commands
 2.	Lazy loading
 3.	Eager loading
 4.	Fluent API
@@ -49,28 +51,31 @@ a.	Commands
 7.	DB First Implementation
 8.	Model based Implementation
 
+Data Driven Design
+https://www.geeksforgeeks.org/domain-driven-design-ddd/
+
  C#
 1.	OOPS
 2.	Working on strings.
 3.	Anonymous methods.
 4.	Extension method.
 5.	LINQ
-a.	Join multiple tables
-b.	Contains
-c.	Any
-d.	Find
-e.	Group
-f.	SelectMany
-g.	Projection and Selection operators
-h.	FirstOrDefault / First / Last methods
+   a.	Join multiple tables
+   b.	Contains
+   c.	Any
+   d.	Find
+   e.	Group
+   f.	SelectMany
+   g.	Projection and Selection operators
+   h.	FirstOrDefault / First / Last methods
 6.	Indexers
 7.	Delegates
-a.	Multi cast delegates
+   a.	Multi cast delegates
 8.	Method Overloading
 9.	Generics Vs Collections
-a.	Ienumerable
-b.	Iquerable
-c.	Ilist
+   a.	Ienumerable
+   b.	Iquerable
+   c.	Ilist
 10.	Generic List Implementation
 11.	Generic Stack implementation
 12.	Generic Queue and Circular Queue Implementation
@@ -98,7 +103,6 @@ c.	Ilist
 34.	Methods
 35.	OOPS
 36.	Properties
-37.	1. Learn URLs.txt
 38.	AnonymousTypes.cs
 39.	Continue.cs
 40.	Delegates.cs
@@ -117,7 +121,8 @@ c.	Ilist
 53.	Tuples.cs
 54.	Yeild.cs
 55.	getenumerator.cs
-async/await
+
+Asynchronous Programming
 https://blog.stephencleary.com/2012/02/async-and-await.html
 https://www.infoworld.com/article/3152735/application-development/my-two-cents-on-the-task-waitall-and-task-whenall-methods.html
 https://www.codeproject.com/Articles/535635/Async-Await-and-the-Generated-StateMachine
@@ -130,21 +135,20 @@ https://filteredcode.wordpress.com/2016/04/28/ienumerable-vs-iqueryable/
 asymptotic algorithm complexity. Theoretical base:
 https://www.geeksforgeeks.org/analysis-of-algorithms-set-1-asymptotic-analysis/
 
- 
 Web-Api
 1.	Controller, actions, Filters, Model binders & Dependency Injection
 2.	Routing
-a.	Primitive types (read from url)
-b.	Complex Types (read from request body) 
+   a.	Primitive types (read from url)
+   b.	Complex Types (read from request body) 
 3.	Global.asax
 4.	WebApiConfig
-a.	Config.MapHttpAttributes();
-b.	Config.EnableCors()
-c.	Config.Filters.Add(NotImplExceptionFilter)
-d.	Config.Formatters.JsonFormaters
-e.	Config.Formatters.XmlFormaters
-f.	Config.Filters.Add(new AutherizeAttribute()) to enable Authorization
-g.	Config.Filters,Add(new IdentityBasicAuthenticationAttribute();)
+   a.	Config.MapHttpAttributes();
+   b.	Config.EnableCors()
+   c.	Config.Filters.Add(NotImplExceptionFilter)
+   d.	Config.Formatters.JsonFormaters
+   e.	Config.Formatters.XmlFormaters
+   f.	Config.Filters.Add(new AutherizeAttribute()) to enable Authorization
+   g.	Config.Filters,Add(new IdentityBasicAuthenticationAttribute();)
 5.	Attributes
 6.	Attribute Routing
 7.	Authentication
@@ -160,13 +164,13 @@ g.	Config.Filters,Add(new IdentityBasicAuthenticationAttribute();)
  
 MVC
 1.	Architecture
-a.	Filters
-i.	Authentication
-ii.	Authorization
-iii.	Result
-iv.	Exception
-b.	Action Results
-c.	Push data from view to controller
+   a.	Filters
+      i.	Authentication
+      ii.	Authorization
+      iii.	Result
+      iv.	Exception
+   b.	Action Results
+   c.	Push data from view to controller
 2.	View Data, Temp Data, View Bag
 3.	Data Annotations
 4.	Routing & Bundling
@@ -176,15 +180,14 @@ c.	Push data from view to controller
 8.	Use of ViewStart File
 9.	Dynamic Vs Strongly Typed views
  
- 
-ES6: (a)
-1.	arrows
-2.	classes
-3.	enhanced object literals
-4.	template strings
-5.	destructuring
+ES6:
+1.	Arrow Functions
+2.	Classes
+3.	Enhanced object literals
+4.	Template strings
+5.	Destructuring 
 6.	default + rest + spread
-7.	let + const
+7.	let, const & var
 8.	iterators + for..of
 9.	generators
 10.	unicode
@@ -200,7 +203,14 @@ ES6: (a)
 20.	reflect api
 21.	tail calls
 22.	Array Helpers:
-a.	forEach, map, filter, filter, find, every some, reduce
+    forEach
+    map
+    filter
+    filter
+    find
+    every
+    some
+    reduce
  
 JS
 1.	Execution Context and Lexical Environment
@@ -208,9 +218,9 @@ JS
 3.	Object Literals
 4.	Arguments, Function Expressions
 5.	Objects & functions
-a.	Normal function
-b.	IIEFs
-c.	Anonymous function
+   a.	Normal function
+   b.	IIEFs
+   c.	Anonymous function
 6.	OOJs
 7.	Closure & Callbacks
 8.	Call (), Apply() and Bind()
@@ -222,7 +232,7 @@ c.	Anonymous function
 
 TS
 1.	Types in TS
-a.	Nullable types, string, number, never, any, checking types
+   a.	Nullable types, string, number, never, any, checking types
 2.	Let Vs Const
 3.	Generics T
 4.	Decorators
@@ -239,9 +249,9 @@ RxJs (https://github.com/DeborahK/Angular-RxJs)
 2.	Data stream Vs Action Stream
 3.	Observable Creation functions
 a.	New Observable()
-b.	Of()
-c.	fromEvent()
-d.	from()
+   b.	Of()
+   c.	fromEvent()
+   d.	from()
 4.	Behaviour Subject
 5.	Map, take, tap, Pipe and ForkJoin, CombineAll, CombineLatest
  
@@ -258,21 +268,22 @@ Data Structures:
 2.	Stack
 3.	Queue
 4.	Bubble sort
-Materials related to REST:
+
+REST:
 https://www.codeproject.com/Articles/283550/Implementing-important-principles-of-REST-using
 HTTP: read PUT and OPTIONS:
 https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html
 https://exceptionnotfound.net/using-http-methods-correctly-in-asp-net-web-api/
  
 Mindset check:
-1.	https://www.geeksforgeeks.org/searching-algorithms/
-2.	https://www.geeksforgeeks.org/sorting-algorithms/
-3.	https://www.geeksforgeeks.org/string-data-structure/
-and solve tasks from
+https://www.geeksforgeeks.org/searching-algorithms/
+https://www.geeksforgeeks.org/sorting-algorithms/
+https://www.geeksforgeeks.org/string-data-structure/
 https://www.hackerrank.com/domains/algorithms
  
-message queue: this one of implementations. good example to get start - https://www.rabbitmq.com/getstarted.html
-please read also about service bus.
+Queue
+https://www.rabbitmq.com/getstarted.html
+Service bus
 https://softwaremill.com/using-kafka-as-a-message-queue/
  
 Merge two sorted arrays in O(n).
@@ -328,3 +339,5 @@ https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iequality
 
 Design Patterns:
 https://www.dofactory.com/net/design-patterns
+
+https://www.geeksforgeeks.org/domain-driven-design-ddd/
